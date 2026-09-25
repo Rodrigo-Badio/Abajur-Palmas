@@ -1,0 +1,11 @@
+# Credenciais - NUNCA subir isso pro GitHub
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Sistema
+.DS_Store
