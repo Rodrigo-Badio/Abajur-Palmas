@@ -29,7 +29,7 @@ from tapo import ApiClient
 load_dotenv(Path(__file__).parent / ".env")
 
 # ---------- Configurações que você pode ajustar ----------
-THRESHOLD = 0.2          # volume mínimo pra considerar "palma" (0.0 a 1.0). Se não detectar, baixe. Se detectar demais (ruído), suba.
+THRESHOLD = 0.4          # volume mínimo pra considerar "palma" (0.0 a 1.0). Se não detectar, baixe. Se detectar demais (ruído), suba.
 CLAP_WINDOW = 0.6        # segundos: tempo máximo entre a 1ª e a 2ª palma pra contar como "duas palmas"
 COOLDOWN = 1.0           # segundos de pausa após processar uma ação, pra não contar eco/reverberação como nova palma
 SAMPLE_RATE = 44100
